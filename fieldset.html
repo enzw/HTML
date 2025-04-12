@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Set</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Identitas</legend>
+            <label for="nama">Name</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="tel">Telephone</label>
+            <input type="tel" name="tel" id="tel" pattern="(62)[0-9]{8-15}"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Alamat</legend>
+            <label for="jalan">Street</label>
+            <input type="text" name="jalan" id="jalan"><br>
+            <label for="kota">City</label>
+            <input type="text" name="kota" id="kota"><br>
+            <label for="provinsi">Province</label>
+            <input type="text" name="provinsi" id="provinsi"><br>
+        </fieldset>
+
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
